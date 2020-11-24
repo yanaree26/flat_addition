@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Muli;
+    src: url('Muli/Muli-Bold.woff');
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    width: 96vw;
+    background-color: rgb(41, 41, 41);
+    padding: 0 2vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo {
+    border: 2px white solid;
+    height: 90%;
+    width: 50px;
+}
+
+nav {
+    display: flex;
+    color:white;
+    height: 100%;
+}
+
+.menu-item {  
+    padding: 0 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu-item:hover {
+    background-color: white;
+    color: rgb(41, 41, 41);;
+}
+
+/* MAIN */
+
+main{
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .items-row {
+    display:flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 100%;
+  }
+  .item {
+    margin: 2px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    flex: 1 1 20%;
+    transition: flex 0.4s ease;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10vh;
+  }
+  
+  .item:hover {
+    flex: 0.01 0.01 40%;
+  }
+
+  .img1 {
+    background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1280x900/235819352.webp?k=366e72dbf88daafce27810bbe9588bc16c290e1f4764fa4cf8eb87749b839f12&o=');
+    background-repeat: center;
+
+
+  }
+  .img2 {
+    background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1280x900/235820140.webp?k=4ecb3487b2d2f50273f16d722ffa61013003577bb2895e80ed3e3cec000b923b&o=');
+    background-repeat: no-repeat;
+
+  }
+  .img3 {
+    background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1280x900/235819642.webp?k=a1f23fb3de824576280726fe00c2d1cbacbaaaa21d505c5310bdb235b97df84a&o=');
+    background-repeat: no-repeat;
+
+  }
+  .img4 {
+    background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1280x900/233537042.webp?k=97daa81aa998e2cfc266511975f78720226775754d5291d9de0aec9547405138&o=');
+    background-repeat: no-repeat;
+
+  }
+  .img5 {
+    background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1280x900/235819750.webp?k=2c20b73be3d914bda768ac895c5c870e55ddf499dfa52ba9202e9898e1537611&o=');
+    background-repeat: no-repeat;
+
+  }
+  .img6 {
+    background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1280x900/233537065.webp?k=241126e39271df02639d9a0ba2466a52fde3cb61baa2218ec733e930fd47d8a8&o=');
+    background-repeat: no-repeat;
+
+  }
+
+  .description {
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      color: white;
+    font-size: 24px;
+      text-shadow: black 0 0 4px;
+  }
